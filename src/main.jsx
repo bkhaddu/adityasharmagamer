@@ -85,6 +85,7 @@ const faqs = [
 
 function App() {
   const [formSent, setFormSent] = useState(false);
+  const logoSrc = `${import.meta.env.BASE_URL}aditya-sharma-logo.png`;
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -95,7 +96,7 @@ function App() {
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Aditya Sharma home">
-          <img src="/aditya-sharma-logo.png" alt="Aditya Sharma Ecommerce Consultant logo" />
+          <img src={logoSrc} alt="Aditya Sharma Ecommerce Consultant logo" />
         </a>
         <nav aria-label="Primary navigation">
           <a href="#services">Services</a>
@@ -136,7 +137,7 @@ function App() {
 
         <div className="hero-visual" aria-label="Ecommerce growth dashboard preview">
           <div className="visual-top">
-            <img src="/aditya-sharma-logo.png" alt="" />
+            <img src={logoSrc} alt="" />
             <div>
               <strong>Revenue Command Center</strong>
               <span>Live growth snapshot</span>
@@ -330,7 +331,7 @@ function App() {
       </section>
 
       <footer>
-        <img src="/aditya-sharma-logo.png" alt="Aditya Sharma Ecommerce Consultant logo" />
+        <img src={logoSrc} alt="Aditya Sharma Ecommerce Consultant logo" />
         <div>
           <strong>Aditya Sharma</strong>
           <span>Ecommerce Consultant</span>

@@ -425,8 +425,8 @@ details {
   align-items: center;
   color: var(--white);
   background:
-    linear-gradient(rgba(4, 21, 47, 0.92), rgba(4, 21, 47, 0.92)),
-    url("/aditya-sharma-logo.png") center / min(760px, 90vw) no-repeat;
+    radial-gradient(circle at 82% 22%, rgba(8, 168, 155, 0.28), transparent 32%),
+    linear-gradient(rgba(4, 21, 47, 0.94), rgba(4, 21, 47, 0.94));
 }
 
 .proof-section h2,
@@ -536,8 +536,8 @@ details {
 .cta-section {
   align-items: center;
   background:
-    linear-gradient(135deg, rgba(6, 39, 96, 0.96), rgba(5, 77, 98, 0.96)),
-    url("/aditya-sharma-logo.png") left 8% center / 520px no-repeat;
+    radial-gradient(circle at 16% 48%, rgba(69, 211, 201, 0.2), transparent 30%),
+    linear-gradient(135deg, rgba(6, 39, 96, 0.98), rgba(5, 77, 98, 0.98));
 }
 
 .cta-section h2,
